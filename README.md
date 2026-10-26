@@ -1,17 +1,17 @@
 # 🔄 Quantum Diffusion Models (QDiffusion) Papers
 
 This section of the **Quantum AI Papers** repository focuses on **Quantum Diffusion Models (QDiffusion)**.  
-QTL leverages knowledge from pre-trained quantum or hybrid quantum-classical models and adapts it to new tasks or domains. This paradigm plays a crucial role in overcoming limitations of small datasets, reducing training costs, and accelerating the deployment of quantum-enhanced AI systems.  
+Quantum diffusion models combine diffusion-based generation with quantum states, channels, variational circuits, or hybrid quantum-classical denoisers. This collection emphasizes quantum denoising diffusion, quantum state and ensemble generation, discrete and continuous data generation, and diffusion-based learning under near-term hardware constraints.  
 
 ---
 
 ## 📚 Scope
 Research papers in this category explore:
-- Transfer of learned quantum circuit parameters between tasks  
-- Hybrid classical–quantum transfer learning frameworks  
-- Applications of QTL in physics, chemistry, medical imaging, and natural language processing  
-- Optimization strategies to mitigate issues such as barren plateaus  
-- Cross-domain transfer of quantum models for practical real-world problems  
+- Quantum denoising diffusion probabilistic models and quantum diffusion processes for generation  
+- Fully quantum and hybrid quantum-classical diffusion architectures  
+- Quantum state, ensemble, image, tabular, few-shot, and high-energy-physics data generation  
+- Noise channels, mixed states, temporal encoding, parameter efficiency, and one-step sampling  
+- Trainability, fidelity, distribution matching, conditional generation, and near-term hardware constraints  
 
 ---
 
@@ -48,6 +48,23 @@ Research papers in this category explore:
 | Quantum State Ensemble                                                                                                 |        |                                                                                                         |                                                                                                                |                                                                                                                |            |
 | Towards Efficient Quantum Hybrid Diffusion Models                                                                      |   2024 | arXiv                                                                                                   | De Falco, Francesca, et al.                                                                                    | https://arxiv.org/pdf/2402.16147                                                                               | Qdiffusion |
 
+
+---
+
+## 🆕 Newly added and verified literature (2025–2026)
+
+These papers were screened as directly relevant to quantum diffusion or quantum denoising diffusion models. Papers about unrelated physical diffusion phenomena or diffusion used only for circuit synthesis were not added in this update.
+
+| title | year | publisher | Author | link | category |
+|---|---:|---|---|---|---|
+| Overcoming Dimensional Factorization Limits in Discrete Diffusion Models through Quantum Joint Distribution Learning | 2026 | Springer Nature | Chuangtao Chen; Qinglin Zhao; MengChu Zhou; Dusit Niyato; Zhimin He; Haozhen Situ | [DOI](https://doi.org/10.1038/s41534-026-01188-0) | QDiffusion |
+| Quantum Denoising Diffusion Model Based on Gaussian Boson Sampling | 2026 | Wiley | Cheng Zhang; Yuhu Lu; Zimeng Xiao; Jinjing Shi | [DOI](https://doi.org/10.1002/qute.202500750) | QDiffusion |
+| Parameter-efficient Quantum Denoising Diffusion Probabilistic Models with temporal encoding | 2026 | Elsevier | Xuefen Zhang; Chuangtao Chen | [DOI](https://doi.org/10.1016/j.future.2025.107981) | QDiffusion |
+| Mixed-state quantum denoising diffusion probabilistic model | 2025 | American Physical Society | Gino Kwun; Bingzhi Zhang; Quntao Zhuang | [DOI](https://doi.org/10.1103/PhysRevA.111.032610) | QDiffusion |
+| Quantum Diffusion Model for Quark and Gluon Jet Generation | 2025 | AAAI Symposium Series | Mariia Baidachna et al. | [DOI](https://doi.org/10.1609/aaaiss.v7i1.36901) | QDiffusion |
+| Quantum Diffusion Models for Few-Shot Learning | 2025 | IEEE | Ruhan Wang; Ye Wang; Jing Liu; Toshiaki Koike-Akino | [DOI](https://doi.org/10.1109/ICAD65464.2025.11114033) | QDiffusion |
+| Denoising diffusion models with optimized quantum implicit neural networks for image generation | 2025 | Elsevier | Jiale Zhang; Xilong Che; Yuzhe Fan; Shun Peng; Geng Chen; Quangong Ma; Juncheng Hu | [DOI](https://doi.org/10.1016/j.future.2025.107875) | QDiffusion |
+| Quantum Latent Diffusion Models | 2025 | arXiv | Francesca De Falco; Andrea Ceschini; Alessandro Sebastianelli; Bertrand Le Saux; Massimo Panella | [arXiv](https://arxiv.org/abs/2501.11174) | QDiffusion |
 
 ---
 
